@@ -17,6 +17,6 @@ jobs:
       - name: Gradle Dependency Submission
         uses: mikepenz/gradle-dependency-submission@v0.8.6
         with:
-          gradle-project-path: "dep"
+          gradle-project-path: ""
           gradle-build-module: ":app"
 
