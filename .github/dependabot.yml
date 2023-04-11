@@ -2,13 +2,13 @@ name: Gradle Dependency Submission
 on:
   push:
     branches:
-      - main # run the action on your projects default branch
+      - main
 
 jobs:
   build:
     name: Dependencies
     runs-on: ubuntu-latest
-    permissions: # The Dependency Submission API requires write permission
+    permissions:
       contents: write
     steps:
       - name: 'Checkout Repository'
